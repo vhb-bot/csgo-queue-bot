@@ -15,7 +15,7 @@ from discord.ext import commands
 
 BOT_COLOR = 0x0D61B7
 
-def run(discord_token, dbl_token=None, donate_url=None):
+def run(NjQ5NjExMzE5ODU4OTU0MjQw.XiczPA.3wQG9t_r1BYRd-E9ZYA4Zwrb08o, dbl_token=None, donate_url=None):
     """ Create the bot, add the cogs and run it """
     bot = commands.Bot(command_prefix=('q!', 'Q!'), case_insensitive=True)
     bot.add_cog(ConsoleCog(bot))
